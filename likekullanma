@@ -1,0 +1,13 @@
+select from country
+like country 'a%a' ;
+like country '-----n' ;
+
+
+select title
+from film 
+like '%t%' ;
+
+select title
+from film
+where length >90 and rental_rate='2.99'
+like title= 'c%' ;
